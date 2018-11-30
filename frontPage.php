@@ -111,7 +111,7 @@
 										} else if (isset($_GET["query_cca2"])){
 											$inputQ = $_GET['query_cca2'];
 											$inputQ2 = $_GET['query_cca22'];
-                    	$query = "SELECT DISTINCT C.school_school_name, C.cca_name FROM CCA C WHERE C.cca_name = '$inputQ' 
+                    	$query = "SELECT DISTINCT C.school_school_name FROM CCA C WHERE C.cca_name = '$inputQ' 
 											AND C.school_school_name IN ( SELECT C2.school_school_name FROM CCA C2 WHERE C2.cca_name = '$inputQ2') "; 
 										}else if (isset($_GET["query_moe"])){
 											$inputQ = $_GET['query_moe'];

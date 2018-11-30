@@ -59,7 +59,7 @@ $search = $_POST['search'];
                   <td>
                     <?php echo $row['school_school_name']; ?>
                   </td>
-                  <td><a class="button" href='updateCCA.php?ccaName=<?php echo $row[' cca_name ']; ?>&schoolName=<?php echo $row['school_school_name '] ?>'>Edit</a><a class="button" href='doDeleteCCA.php?ccaName=<?php echo $row[' cca_name
+                  <td><a class="button" href='updateCCA.php?ccaName=<?php echo $row['cca_name']; ?>&schoolName=<?php echo $row['school_school_name'] ?>'>Edit</a><a class="button" href='doDeleteCCA.php?ccaName=<?php echo $row[' cca_name
                       ']; ?>&schoolName=<?php echo $row['school_school_name '] ?>'>Delete</a></td>
 
                 </tr>

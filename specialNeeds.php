@@ -33,6 +33,7 @@
               <th onclick="sortTable(1)">Option Code</th>
               <th onclick="sortTable(2)">Hearing Loss</th>
               <th onclick="sortTable(2)">Mild Special Needs</th>
+              <th onclick="sortTable(2)">Visually Impaired</th>
               <th onclick="sortTable(2)">Physically Disabled</th>
               <th>Edit/Delete</th>
 
